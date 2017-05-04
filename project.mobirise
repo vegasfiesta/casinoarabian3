@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#ffffff",
+        "primaryColor": "#514946",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -22,8 +22,10 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 4,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 24,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -37,45 +39,74 @@
       },
       "components": [
         {
-          "_inherit": "header1",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extSlider2",
           "_styles": {
-            ".mbr-section-title": {
-              "color": "#efefef"
-            },
-            ".mbr-section-lead": {
-              "color": "#9c9a9a"
+            "H2": {
+              "text-align": "center"
             },
             ".btn": {
-              "font-size": "24px"
+              "font-size": "30px"
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header5",
-          "_anchor": "header5-3",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/4624eb327d530e729b7d0e2394b02bac-2000x1338.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "الكازينو الأكثر إثارة على الانترنت للرجل المتميز الذي يتحدث العربية",
+                "showText": false,
+                "text": "",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"http://servedbytrackingdesk.com/54faa56f8a2940523628cdf8/click/1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">انكم مدعوون الى الداخل</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/shutterstock-2000x1333.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "ألعاب رائعة، والخدمة الشخصية واللاعبين سعيدة",
+                "showText": true,
+                "text": "يقدم كازينو لدينا أعضاء صادقة، تجربة مثيرة لا تقاوم. الكازينو العربي هو بوابتك إلى ثروة عظيمة",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/1048076-2000x1250.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "كازينو عربي&nbsp;",
+                "showText": true,
+                "text": "انكم مدعوون الى التمتع المكافأة لدينا. سجل اليوم ومضاعفة أموالك على الفور.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://servedbytrackingdesk.com/54faa56f8a2940523628cdf8/click/1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">انكم مدعوون الى الداخل</a> "
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#7c706b",
+            "showBullets": true
           },
-          "title": "<i><a href=\"https://goo.gl/pVzjsC\" target=\"_blank\">كاسينو العربية للاعب المنافس</a></i>",
-          "text": "ببساطة أفضل كازينو على الانترنت.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://goo.gl/pVzjsC\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">لعب الان</a> "
+          "_anchor": "extSlider2-l",
+          "articleLayout": false
         },
         {
           "_inherit": "features3",
@@ -83,14 +114,25 @@
             "Theme"
           ],
           "_name": "features6",
+          "_styles": {
+            "H4": {
+              "font-size": "32px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "color": "#cccccc"
+            },
+            "P": {
+              "color": "#efefef"
+            }
+          },
           "_anchor": "features6-1",
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "bgColor": "#3e3d3d",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -110,63 +152,69 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "touch-swipe",
+              "name": "left",
               "family": "MobiriseIcons",
               "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "newWindow": true
+              "newWindow": true,
+              "color": "#cccccc"
             }
           },
           "title1": "بوابة المحمول",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "لدينا الحل المحمول مرنة وأنيقة، مع الوصول إلى أفضل الألعاب أداء لدينا. مع الراحة <br><span style=\"font-size: 1rem; line-height: 1.5;\">وسهولة، كنت قادرا على التمتع جلسة القمار مريحة ومجزية.</span><br>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://goo.gl/pVzjsC\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">أكثر </a>",
+          "button1": "<a data-app-btn=\"true\" href=\"http://servedbytrackingdesk.com/54faa56f8a2940523628cdf8/click/1\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">أكثر </a>",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "key",
-              "family": "MobiriseIcons",
+              "name": "profile-male",
+              "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "http://servedbytrackingdesk.com/54faa56f8a2940523628cdf8/click/1",
+              "size": 0,
+              "color": "#cccccc",
+              "newWindow": true
             }
           },
           "title2": "خدمة كونسيرج فيب",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "سيكون لدينا كونسيرجيس أكثر من سعداء لمساعدتكم في أي وسيلة يمكنهم لحجز الرحلات والفنادق وأيضا الوصول إلى بعض من أرقى أعضاء الكازينوهات فقط",
-          "button2": "<a data-app-btn=\"true\" href=\"https://goo.gl/pVzjsC\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">أكثر </a>",
+          "button2": "<a data-app-btn=\"true\" href=\"http://servedbytrackingdesk.com/54faa56f8a2940523628cdf8/click/1\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">أكثر </a>",
           "media3": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "cash",
-              "family": "MobiriseIcons",
+              "name": "linegraph",
+              "family": "et-line",
               "active": true,
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "color": "#c1c1c1"
             }
           },
           "title3": "مكافأة نقدية",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "برنامج استرداد النقود لدينا هو من الطراز العالمي. مع عودة نقدية تصل إلى 120٪ على الودائع الخاصة بك، يمكنك الحصول على فرصة أخرى للفوز.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://goo.gl/pVzjsC\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">أكثر </a>",
+          "button3": "<a data-app-btn=\"true\" href=\"http://servedbytrackingdesk.com/54faa56f8a2940523628cdf8/click/1\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">أكثر </a>",
           "media4": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "setting2",
-              "family": "MobiriseIcons",
+              "name": "adjustments",
+              "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "http://servedbytrackingdesk.com/54faa56f8a2940523628cdf8/click/1",
+              "size": 0,
+              "color": "#cccccc",
+              "newWindow": true
             }
           },
           "title4": "خياط",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "مع نهج مصممة خصيصا، وتعتبر جميع لاعبين لدينا كبار الشخصيات. جنبا إلى جنب مع لكم، ونحن نتأكد من تلبية التوقعات الخاصة بك.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://goo.gl/pVzjsC\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">أكثر </a>",
+          "button4": "<a data-app-btn=\"true\" href=\"http://servedbytrackingdesk.com/54faa56f8a2940523628cdf8/click/1\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">أكثر </a>",
           "media5": {
             "iconFont": {
               "active": true,
@@ -194,18 +242,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "H4": {
-              "font-size": "22px",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "color": "#cccccc"
-            },
-            "P": {
-              "color": "#efefef"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         }
       ]
     }
